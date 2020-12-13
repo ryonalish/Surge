@@ -53,4 +53,4 @@ http-response ^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\
 
 
 [MITM]
-hostname = %APPEND%  mp.weixin.qq.com, api.bilibili.com, api.gamer.com.tw, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com,  weixin110.qq.com, ap*.intsig.net, account.wps.cn, api.textnow.me, api.termius.com, biz.caiyunapp.com, ios.fuliapps.com, apple.fuliapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com
+hostname = %APPEND%  api.textnow.me, mp.weixin.qq.com, api.bilibili.com, api.gamer.com.tw, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com,  weixin110.qq.com, ap*.intsig.net, account.wps.cn, api.termius.com, biz.caiyunapp.com, ios.fuliapps.com, apple.fuliapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com
