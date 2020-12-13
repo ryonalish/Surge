@@ -21,3 +21,7 @@
 #### www.xvideos.com
 ^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js - reject
 ^https:/?\/.*?.xvideos.com.* - response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="毒奶">
+
+
+[MITM]
+hostname = %INSERT% *.xvideos-cdn.com, www.xvideos.com,*.phncdn.com, www.pornhub.com, cn.pornhub.com, *.pornhub.com
