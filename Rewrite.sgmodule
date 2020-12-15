@@ -105,6 +105,54 @@ https://\b.*wixstatic\b.*?gif https://limbopro.xyz/usr/uploads/2020/10/209157719
 ^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js - reject
 ^https:/?\/.*?.xvideos.com.* - response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="毒奶">
 
+##### ja.nyahentai.com
+https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif - reject
+^https:?/\/static.nyahentai.pw.*?ads.*?.js - reject
+^https:?/\/static.nyahentai.pw.*?check_cat*?.js.* - reject
+^https:/?\/rt.gsspat.jp.* - reject
+^https:/?\/gum.criteo.com.* - reject
+^https:/?\/rt.gsspat.jp.* - reject
+^https:/?\/a.realsrv.com.*?ads-.*?.js - reject
+
+##### www.91porn.com
+^https:/?\/.*?.91porn.com.* - response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.xyz"
+https:/?\/fans.91p20.space\/fans/.*?.gif https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302 
+
+##### www.cocomanhua.com
+#https://www.cocomanhua.com/js/ad_/ad1.js https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302 
+^https:?/\/www\.cocomanhua\.com.* - response-body <script>__cad.cpcvm_bottom();</script>|<script.*?data-ad_frequency.*?</script>|<script type="application/javascript">(\n.*){20,30}.*?</script>|<noscript>.*?(\n.*){1,5}.*?</noscript> response-body <meta name="author" content="毒奶">
+https://s3.amazonaws.com/9e27c0d6ac7a738463aebb2faadfdc48c0de202b9fa570955c943.* - reject
+https://www.cocomanhua.com/sw.js - reject-200
+
+##### www.mfkhm.com
+^https:?/\/.*?wudejia.com/.*?php.* - reject
+
+##### m.yhdm.io
+http://m.yhdm.io/bar/yfgg.js - reject
+
+##### zh.nyahentai.me
+^https:/?\/zh\.nyahentai\.me.* - response-body  <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="毒奶">
+
+##### 91porny.com
+^https:/?\/91porny\.com.* - response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="毒奶">
+^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302 
+
+##### javtsunami.com
+^https:/?\/javtsunami\.com/steep-heart-ac21.* - reject
+^https:/?\/javtsunami\.com.* - response-body <style type="text/css".*?(ad.*?){160,200}.*?(\n.*){50,150}.*?</style> response-body <meta name="author" content="毒奶">
+^https:?/\/cloudrls\.com\/asset\/bann\.js.* - reject
+
+##### www.porntrex.com
+https://ads\.bullionyield\.com/.*?slider\.min\.js - reject
+^https:?/\/www\.porntrex\.com.* - response-body <script>.*?(\n.*){15,20}.*?</script>|<iframe.*?150.*?ad.*?</iframe>|<div style.*?(\n.*){2,4}.*?250.*?(\n.*){2,4}.*?</div> response-body <meta name="author" content="毒奶">
+https://urtirepor\.com/.*?/.*?/sc/scssx/.*?/lib\.js - reject
+https://cluster\.awmserve\.com/incstage/min_exec_pt.js.* - reject
+
+##### www.zhenbuka.com
+^https:/?\/www\.zhenbuka\.com.* - response-body <div class="stui-pannel stui-pannel-bg clearfix" style="margin-bottom: 0">.*?<ul><li>.*?www.zhenbuka1.com.*?</li></ul></div></div></div>|<a href="https://www.ybvip1879.vip.*?</a>|<a id="ad.*?\.*?</a> response-body <meta name="author" content="毒奶">
+
+##### www.javbus.com
+^https://www\.javbus\.com - response-body <div class="col-xs-12 col-md-4 text-center ptb10">|<div class="ad-list"> response-body <div style="display:none;">
 
 [MITM]
 hostname = %APPEND% *.javbus.com, www.javbus.com, *.zhenbuka.com, www.zhenbuka.com, cluster.awmserve.com, urtirepor.com, ads.bullionyield.com, www.porntrex.com, cloudrls.com, javtsunami.com, *.cloudfront.net, 91porny.com, cdn.jsdelivr.net, s3.amazonaws.com, static.nyahentai.pw, zh.nyahentai.me, m.yhdm.io, k.wudejia.com, www.mfkhm.com, www.cocomanhua.com, fans.91p20.space, www.91porn.com, *.xvideos-cdn.com, www.xvideos.com, *.realsrv.com, *.nyahentai.com, gum.criteo.com, rt.gsspat.jp, *.nyahentai.pw, rt.gsspat.jp, img.gsspat.jp, *.phncdn.com, www.pornhub.com, cn.pornhub.com, *.pornhub.com, *.ddmax20.*, asianclub.tv, *.yabo.*, *.yabo729.com, *.wine-api.net, *.wixsite.com, *.wixstatic.com, *.dilidd.com, *.alicdn.com, *.dililitv.com, *.netflav.*, *.netflav.com, www.avple.video, *.imgur.*, *.pianku.*, *.xn--2qux23c9ziyrq.club, *.naifei.shop, *.nfmovies.com,*.yb463.app, *.yabet.*, *.yabet1477.*, ddrk.me, *.ddrk.me, poweredbyliquidfire.mobi, *.poweredbyliquidfire.mobi, avgle.com, *.avgle.com, *.juicyads.com, *.jads.co, jable.tv, *.jable.tv, *.ackcdn.net, *.trwl1.*, *.trwl1.com, *.o333o.com, *.exosrv.com, asewlfjqwlflkew.com, *.asewlfjqwlflkew.com, *.tsyndicate.com, tsyndicate.com, *.uus58.com, asewlfjqwlflkew.com, *.uus58.*
