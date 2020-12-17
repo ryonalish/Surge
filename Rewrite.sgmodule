@@ -80,8 +80,8 @@ https:?/\/.*?dilidd\..*top.php - reject
 ^https:?//asianclub.tv/asset/bann.js.* - reject
 ^https:?//.*?\bavple\.video\/.*?\/bann.js\b.* - reject
 
-https://i.imgur.com/AwTXfrw.gif - reject-img
-https://i.imgur.com/ksaMK3K.gif - reject-img
+https://i.imgur.com/AwTXfrw.gif - reject
+https://i.imgur.com/ksaMK3K.gif - reject
 
 #####netflav.com Netflav rewrite
 https://\b.*wixstatic\b.*?gif https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302 
