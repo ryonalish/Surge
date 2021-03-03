@@ -36,7 +36,7 @@ Bili Region = type=http-response,pattern=https:\/\/api\.bilibili\.com\/pgc\/view
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=扫描全能王
 
 # WPS
-cron ”0 7 * * *“ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=wps
+http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, tag=WPS
 
 # Textnow
 http-response ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Textnow.js, tag=Textnow
