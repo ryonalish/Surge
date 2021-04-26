@@ -32,8 +32,8 @@ epic = type=cron,cronexp=55 23 ? * THU,script-path=https://raw.githubusercontent
 彩云天气 = type=cron,cronexp=30 8-22 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js,script-update-interval=0
 # Sunert https://github.com/Sunert/Scripts/tree/master/Task
 汇率 = type=cron,cronexp=4 0 * * *,script-path=https://github.com/Sunert/Scripts/raw/master/Task/backup/exchangeRate.js,script-update-interval=0
-京东到家 = type=cron,cronexp=30 10 8 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
-快手 = type=cron,cronexp=0 11 8 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,script-update-interval=0
+京东到家 = type=cron,cronexp=30 10 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/jddj.js,script-update-interval=0
+快手 = type=cron,cronexp=0 11 8 * * *,script-path=https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/kuaishou.js,script-update-interval=0
 # lowking   https://github.com/lowking/Scripts
 番剧监控 = type=cron,cronexp=”0 0 0,1 * * *“,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=0
 # songyangzz   https://github.com/songyangzz/QuantumultX
