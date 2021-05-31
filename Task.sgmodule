@@ -18,7 +18,7 @@
 // 白条 = type=cron,cronexp=0 19 * * *,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js,script-update-interval=0
 # By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 爱奇艺 = type=cron,cronexp=20 0 8 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
-哔哩哔哩漫画 = type=cron,cronexp=40 0 8 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,script-update-interval=0
+#哔哩哔哩漫画 = type=cron,cronexp=40 0 8 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,script-update-interval=0
 贴吧 = type=cron,cronexp=”0 0,1,2 8 * * *“,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,script-update-interval=0
 快看漫画 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js,script-update-interval=0
 # By chavyleung      GitHub：https://github.com/chavyleung/scripts
@@ -39,7 +39,7 @@ epic = type=cron,cronexp=55 23 ? * THU,script-path=https://raw.githubusercontent
 # songyangzz   https://github.com/songyangzz/QuantumultX
 #饿了么签到 = type=cron,cronexp=0 9 8 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
 # barrym-chen   https://github.com/barrym-chen/Script
-携程 = type=cron,cronexp=20 9 8 * * *,script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js,script-update-interval=0
+#携程 = type=cron,cronexp=20 9 8 * * *,script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/ctrip/ctrip.js,script-update-interval=0
 # iisams
 京东特权值 = type=cron,cronexp=5 8 * * *,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js,script-update-interval=0
 挖矿 = type=cron,cronexp=0 8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/ttwbxcxSign.js,script-update-interval=0
