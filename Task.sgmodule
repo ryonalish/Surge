@@ -1,6 +1,6 @@
 #!name=Surge Task Module
 #!desc=iOS Scripts 模块配置
-#!system=ios
+
 
 [Script]
 # 电信签到
